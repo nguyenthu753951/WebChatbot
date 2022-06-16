@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>App Fragments</title>
+</head>
+
+<body>
+    <!-- Default Navigator -->
+    <ul th:fragment="nav navbar-nav">
+        <li> <a th:href="@{/}">Trang Chủ</a></li>
+        <li> <a th:href="@{/#monan}">Món ăn</a></li>
+        <li> <a th:href="@{/#nuocuong}">Nước uống</a></li>
+    </ul>
+    <div th:fragment="copyright">
+        &copy; o7planning.org
+    </div>
+</body>
+
+</html>

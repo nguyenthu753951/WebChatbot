@@ -1,0 +1,139 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 2px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 200px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#buttonInput {
+    padding: 3px;
+    font-family: monospace;
+    font-size: large;
+}
+.userText {
+    margin-bottom: 25px;
+    color: rgb(255 240 240);
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #6666FF;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    margin-bottom: 25px;
+    color: rgb(255 240 240);
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+.botText span {
+    background-color: #9966CC;
+    padding: 10px;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+.botText2 {
+    color: rgb(255 240 240);
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+.botText2 span {
+    background-color: #9966CC;
+    padding: 10px;
+    border-radius: 2px;
+    padding-bottom: 5px;
+}
+
+#tidbit {
+    position:absolute;
+    bottom:0;
+    right:0;
+    width: 300px;
+}
+.logo{
+    text-align: center;
+    background: #f6a2b1;
+}
+.logo img{
+    width: 30%;
+}
+.icon__bot{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin:0 10px;
+    color: blueviolet;
+  }
+  .botText{
+    display: flex;
+    align-items: center;
+  }
+  .icon__user{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin:0 10px;
+    color: #6666FF;
+  }
+
+  div.scroll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow: scroll;
+  }
